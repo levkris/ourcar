@@ -197,3 +197,77 @@ h2 {
   font-weight: bold;
   margin: 0;
 }
+
+.drivers-teams {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  user-select: none;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.team-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--clr-surface-tonal-a10);
+  user-select: none;
+  cursor: pointer;
+}
+
+.team-member-image {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.team-member-name {
+  text-decoration: none;
+  color: var(--clr-light-a0);
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  margin: 0;
+  font-size: 20px;
+}
+
+.car-number-member-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.car-number {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  color: var(--clr-surface-a50);
+}
+
+.main-content {
+  margin-bottom: 104px;
+}
