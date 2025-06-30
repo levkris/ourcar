@@ -1,5 +1,10 @@
 body {
-  background-color: white;
-  color: black;
+  background-color: #020710;
+  color: whitesmoke;
   font-family: Inter, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: "Hypik";
+  src: url(/hypik.otf);
 }
