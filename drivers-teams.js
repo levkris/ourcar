@@ -18,7 +18,7 @@ fetch('/drivers-teams.json')
             let flagsHtml = '';
 
             member.flags.forEach(flag => {
-                flagsHtml += `<img class="flag" src="/flags/${flag}.png">`;
+                flagsHtml += `<img class="flag" src="/flags/${flag}.png" title="${flag}">`;
             });
 
             let teamMemberHtml = `
